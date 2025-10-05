@@ -31,7 +31,7 @@ const observer = new IntersectionObserver((entries) => {
     if (entry.isIntersecting) {
       entry.target.classList.add('in');
       if (entry.target.classList.contains('bar')) {
-        // handled via CSS width transition
+        entry.target.querySelector('span')?.classList.add('in');
       }
       obs.unobserve(entry.target);
     }
@@ -50,5 +50,7 @@ window.addEventListener('scroll', () => {
 
 // Year
 document.getElementById('year').textContent = String(new Date().getFullYear());
+
+
 
 
