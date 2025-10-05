@@ -1,12 +1,12 @@
 /* Theme */
 :root {
-    --bg: #2b2b2b;
-    --card: #0f1520;
-    --muted: #9fb0c2;
-    --text: #e6edf6;
-    --brand: #5b8cff;
-    --brand-2: #22d3ee;
-    --acc: #7c3aed;
+    --bg: #1b37c5;
+    --card: #1b14426c;
+    --muted: #e2dcdc;
+    --text: #ffffff;
+    --brand: #ffffff7b;
+    --brand-2: #ffffff;
+    --acc: #000000;
     --ring: 0 0 0 10px rgb(91 140 255 / 12%);
 }
 
@@ -40,10 +40,10 @@ body {
 .site-header {
     position: sticky;
     top: 0;
-    background: rgba(11, 15, 20, .6);
+    background: rgba(0, 0, 0, 0.656);
     backdrop-filter: blur(10px);
     z-index: 50;
-    border-bottom: 1px solid rgba(255, 255, 255, .06)
+    border-bottom: 1px solid rgba(222, 222, 222, 0.777)
 }
 
 .nav-wrapper {
@@ -112,7 +112,8 @@ body {
     display: grid;
     grid-template-columns: 1.2fr .8fr;
     gap: 40px;
-    align-items: center
+    align-items: center;
+    color: white;
 }
 
 .eyebrow {
