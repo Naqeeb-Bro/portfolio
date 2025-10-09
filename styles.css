@@ -1,6 +1,6 @@
 /* Theme */
 :root {
-    --bg: #1b37c5;
+    --bg: #000000;
     --card: #1b14426c;
     --muted: #e2dcdc;
     --text: #ffffff;
@@ -563,3 +563,4 @@ textarea:focus {
         grid-template-columns: 1fr
     }
 }
+
